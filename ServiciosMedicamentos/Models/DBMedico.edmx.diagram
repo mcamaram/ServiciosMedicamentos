@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="73fa4749fa524d138fb7a25938cfb41c" Name="Diagram1">
+        <EntityTypeShape EntityType="MedicoModel.Clinica" Width="1.5" PointX="0.75" PointY="2.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="MedicoModel.Consulta" Width="1.5" PointX="8.25" PointY="5.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="MedicoModel.ConsultaMedicamento" Width="1.5" PointX="10.5" PointY="6" IsExpanded="true" />
+        <EntityTypeShape EntityType="MedicoModel.Doctor" Width="1.5" PointX="3" PointY="5.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="MedicoModel.Especialidad" Width="1.5" PointX="0.75" PointY="9.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="MedicoModel.FormaFarmaceutica" Width="1.5" PointX="6" PointY="1.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MedicoModel.Medicamento" Width="1.5" PointX="8.25" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MedicoModel.Paciente" Width="1.5" PointX="6" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MedicoModel.Sexo" Width="1.5" PointX="0.75" PointY="6.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MedicoModel.TipoSangre" Width="1.5" PointX="3.75" PointY="2.375" IsExpanded="true" />
+        <AssociationConnector Association="MedicoModel.FK_Doctor_Clinica" ManuallyRouted="false" />
+        <AssociationConnector Association="MedicoModel.FK__Consulta__IIDPAC__34C8D9D1" ManuallyRouted="false" />
+        <AssociationConnector Association="MedicoModel.FK__ConsultaM__IIDCO__35BCFE0A" ManuallyRouted="false" />
+        <AssociationConnector Association="MedicoModel.FK__ConsultaM__IIDME__36B12243" ManuallyRouted="false" />
+        <AssociationConnector Association="MedicoModel.FK__Doctor__IIDSEXO__37A5467C" ManuallyRouted="false" />
+        <AssociationConnector Association="MedicoModel.FK_Doctor_Especialidad" ManuallyRouted="false" />
+        <AssociationConnector Association="MedicoModel.FK__Medicamen__IIDFO__3A81B327" ManuallyRouted="false" />
+        <AssociationConnector Association="MedicoModel.FK_Paciente_Sexo" ManuallyRouted="false" />
+        <AssociationConnector Association="MedicoModel.FK_Paciente_TipoSangre" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
